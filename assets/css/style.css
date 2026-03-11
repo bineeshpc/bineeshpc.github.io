@@ -84,9 +84,9 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
-  border: 2px solid #fff;
+  background: #4a9eff;
+  color: #1a2332;
+  border: 2px solid #4a9eff;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -104,8 +104,8 @@
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #fff;
-  border: 2px solid #fff;
+  color: #4a9eff;
+  border: 2px solid #4a9eff;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -116,16 +116,17 @@
 }
 
 .contactme:hover{
-  color: #00796b;
-  background-color: white;
+  color: #1a2332;
+  background-color: #4a9eff;
 }
 /* main body */
 
 /* body-color */
 
 body {
-  color: #333;
+  color: #e0e0e0;
   font-size: 18px;
+  background-color: #1a2332;
 }
 
 /* body {
@@ -140,7 +141,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #4a9eff;
 }
 
 /* main blockqoute */
@@ -175,7 +176,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: #1a2332;
   box-shadow: none;
   height: 0;
 }
@@ -200,7 +201,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: #1a2332;
   padding-left: 190px;
 }
 
@@ -221,6 +222,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #0f1823;
 }
 
 ul.side-nav li {
@@ -237,7 +239,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: #4a9eff;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -257,8 +259,8 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
+  background-color: #0f1823;
+  border-bottom: 1px solid #2a3a52;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -270,12 +272,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
-  border-left: 3px solid;
+  background-color: #2a3a52;
+  border-left: 3px solid #4a9eff;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #ffffff !important;
 }
 
 li.logo span {
@@ -300,6 +302,7 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
+  color: #e0e0e0;
 }
 
 .section {
@@ -320,7 +323,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: linear-gradient(135deg, #0f1823 0%, #1a2a3a 100%);
   position: relative;
 }
 
@@ -348,7 +351,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #4a9eff;
 }
 
 #intro.section .teal {
@@ -356,7 +359,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
   left: 0;
   position: absolute;
@@ -372,6 +375,8 @@ h3 {
 
 .card {
   margin-bottom: 60px;
+  background-color: #263445;
+  color: #e0e0e0;
 }
 
 .card .role {
@@ -383,12 +388,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #333;
-  border-bottom: 2px solid #ffab40;
+  color: #4a9eff;
+  border-bottom: 2px solid #4a9eff;
 }
 
 .card li a:hover {
-  color: #333;
+  color: #7cb9ff;
   font-weight: 500;
 }
 
@@ -414,7 +419,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.2);
   border: none;
 }
 
@@ -428,7 +433,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #a0a0a0;
 }
 
 .card ul {
@@ -439,10 +444,11 @@ h3 {
   line-height: 200%;
   list-style-type: disc;
   margin-left: 24px;
+  color: #c0c0c0;
 }
 
 .card ul li li {
-  color: #666;
+  color: #909090;
   font-size: 13px;
 }
 
@@ -473,7 +479,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #4a9eff !important;
 }
 
 #skills .card.large {
@@ -481,9 +487,10 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3a4a62;
   margin-bottom: 30px;
   padding-bottom: 20px;
+  color: #e0e0e0;
 }
 
 #skills .col img.responsive-img {
@@ -502,7 +509,7 @@ a.hoverline:hover {
 }
 
 #experience .card-content .row {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3a4a62;
   padding-bottom: 10px;
 }
 
@@ -543,13 +550,13 @@ small {
 }
 
 .grey-text {
-  color: #666 !important;
+  color: #909090 !important;
 }
 
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #4a9eff !important;
 }
 
 /* .teal-text {
@@ -559,7 +566,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #4a9eff !important;
 }
 
 /* .teal {
@@ -597,12 +604,12 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
+    background: #1a2332;
     height: 64px;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #4a9eff;
     height: 56px;
     line-height: 56px;
   }
